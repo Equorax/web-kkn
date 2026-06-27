@@ -1,0 +1,17 @@
+Website UMKM
+
+Color:
+-D0311E
+-F8EBAB
+
+Text inside:
+8F0007
+
+Hamburger Menu in is uses for navigation between pages
+
+embedded maps:
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31618.89894231827!2d110.56421323476565!3d-7.857091999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1782568163027!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+
+
+Make me a  react static web pages for a local snack shop, this is the sample/demo so make it clear and use reusable component for the menu/product and i want to use an embedded code for the map, use tailwind to style this web
