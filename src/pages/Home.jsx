@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import ProductCard from '../components/ProductCard'
 
 const featuredProducts = [
@@ -6,7 +7,7 @@ const featuredProducts = [
   { name: 'Kue Kering', description: 'Kue kering homemade dengan resep spesial.', image: '🍪' },
 ]
 
-export default function Home({ setPage }) {
+export default function Home() {
   return (
     <>
       <section className="relative bg-secondary">
@@ -17,12 +18,12 @@ export default function Home({ setPage }) {
           <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto" style={{ color: '#D0311E' }}>
             Camilan homemade fresh, halal, dan penuh cinta. Temukan camilan favoritmu!
           </p>
-          <button
-            onClick={() => setPage('menu')}
-            className="mt-8 bg-primary text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition shadow-lg cursor-pointer"
+          <Link
+            to="/menu"
+            className="mt-8 inline-block bg-primary text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition shadow-lg"
           >
             Lihat Menu
-          </button>
+          </Link>
         </div>
       </section>
 
