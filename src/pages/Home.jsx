@@ -1,10 +1,14 @@
 import { Link } from 'react-router-dom'
 import ProductCard from '../components/ProductCard'
+import bolu from '../images/Bolu.jpeg'
+import donat from '../images/Donat.jpeg'
+import ondeOnde from '../images/Onde-onde.png'
+import banner from '../images/Bannner.jpeg'
 
 const featuredProducts = [
-  { name: 'Stik Bawang', description: 'Stik bawang gurih dan renyah, camilan favorit keluarga.', image: '🥟' },
-  { name: 'Keripik Singkong', description: 'Keripik singkong pedas manis, cocok untuk teman santai.', image: '🍟' },
-  { name: 'Kue Kering', description: 'Kue kering homemade dengan resep spesial.', image: '🍪' },
+  { name: 'Bolu', description: 'Bolu lembut dan empuk, camilan klasik yang disukai semua kalangan.', image: bolu },
+  { name: 'Donat', description: 'Donat empuk dengan topping manis, pilihan tepat untuk camilan.', image: donat },
+  { name: 'Onde-onde', description: 'Onde-onde wijen dengan isi kacang hijau, renyah di luar legit di dalam.', image: ondeOnde },
 ]
 
 export default function Home() {
@@ -26,6 +30,15 @@ export default function Home() {
           </Link>
         </div>
       </section>
+      <div className="flex justify-center content-center mt-10">
+        <img
+        src={banner}
+        alt="Banner Snack KKN"
+        className=" w-6xl rounded-xl border-[#8F0007] border-5"
+        
+      />
+      </div>
+      
 
       <section className="max-w-6xl mx-auto px-4 py-16">
         <h2 className="text-3xl font-bold text-center mb-10" style={{ color: '#8F0007' }}>
