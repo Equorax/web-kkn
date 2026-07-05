@@ -4,6 +4,9 @@ import bolu from '../images/Bolu.jpeg'
 import donat from '../images/Donat.jpeg'
 import ondeOnde from '../images/Onde-onde.png'
 import banner from '../images/Bannner.jpeg'
+import { FaBowlFood } from "react-icons/fa6";
+import { BiSolidPackage } from "react-icons/bi";
+import { ImSpoonKnife } from "react-icons/im";
 
 const featuredProducts = [
   { name: 'Bolu', description: 'Bolu lembut dan empuk, camilan klasik yang disukai semua kalangan.', image: bolu },
@@ -34,7 +37,7 @@ export default function Home() {
         <img
         src={banner}
         alt="Banner Snack KKN"
-        className=" w-6xl rounded-xl border-[#8F0007] border-5"
+        className=" lg:w-6xl md:w-lg sm: w-sm rounded-xl border-[#8F0007] border-5"
         
       />
       </div>
@@ -58,20 +61,21 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-10">
             <div className="bg-white p-6 rounded-2xl shadow-sm">
-              <div className="text-4xl mb-3">🥜</div>
+              <div className="text-4xl mb-3 flex justify-center"><FaBowlFood className = " text-[#8F0007]"/></div>
               <h3 className="font-bold text-lg" style={{ color: '#8F0007' }}>Bahan Fresh</h3>
-              <p className="text-gray-600 mt-2 text-sm">Menggunakan bahan-bahan segar dan berkualitas</p>
+              
             </div>
+
             <div className="bg-white p-6 rounded-2xl shadow-sm">
-              <div className="text-4xl mb-3">🕌</div>
-              <h3 className="font-bold text-lg" style={{ color: '#8F0007' }}>Halal</h3>
-              <p className="text-gray-600 mt-2 text-sm">Terjamin kehalalan dan kebersihannya</p>
-            </div>
-            <div className="bg-white p-6 rounded-2xl shadow-sm">
-              <div className="text-4xl mb-3">🚚</div>
+              <div className="text-4xl mb-3 flex justify-center"> <BiSolidPackage className='text-[#8F0007]'/></div>
               <h3 className="font-bold text-lg" style={{ color: '#8F0007' }}>Mudah Dipesan</h3>
-              <p className="text-gray-600 mt-2 text-sm">Pemesanan mudah melalui WhatsApp</p>
             </div>
+
+            <div className="bg-white p-6 rounded-2xl shadow-sm">
+              <div className="text-4xl mb-3 flex justify-center"><ImSpoonKnife className='text-[#8F0007]'/></div>
+              <h3 className="font-bold text-lg" style={{ color: '#8F0007' }}>Rasa Otentik</h3>
+            </div>
+
           </div>
         </div>
       </section>

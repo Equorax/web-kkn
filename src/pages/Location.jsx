@@ -1,3 +1,6 @@
+import { IoLocation } from "react-icons/io5";
+import { FaPhoneAlt } from "react-icons/fa";
+
 export default function Location() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
@@ -21,11 +24,11 @@ export default function Location() {
 
       <div className="mt-8 bg-secondary rounded-2xl p-6 text-center">
         <h2 className="font-bold text-xl" style={{ color: '#8F0007' }}>Hubungi Kami</h2>
-        <p className="mt-2 text-gray-700">
-          📍 Dusun KKN, Yogyakarta
+        <p className=" flex justify-center mt-2">
+          <IoLocation className="text-[#8F0007] mr-2 "/> Dusun KKN, Yogyakarta
         </p>
-        <p className="text-gray-700">
-          📞 0812-3456-7890
+        <p className=" flex justify-center">
+           <FaPhoneAlt className="text-[#8F0007] mr-2"/>0812-3456-7890
         </p>
       </div>
     </div>
