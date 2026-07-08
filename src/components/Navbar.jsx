@@ -20,7 +20,7 @@ export default function Navbar() {
             onClick={() => setIsOpen(false)}
             className="font-bold text-xl tracking-tight hover:opacity-90 transition"
           >
-            Snack KKN
+            Jajanan Pasar Bu Sarmi
           </Link>
 
           <div className="hidden md:flex gap-6">

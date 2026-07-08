@@ -25,7 +25,7 @@ export default function Location() {
       <div className="mt-8 bg-secondary rounded-2xl p-6 text-center">
         <h2 className="font-bold text-xl" style={{ color: '#8F0007' }}>Hubungi Kami</h2>
         <p className=" flex justify-center mt-2">
-          <IoLocation className="text-[#8F0007] mr-2 "/> Dusun KKN, Yogyakarta
+          <IoLocation className="text-[#8F0007] mr-2 "/> Dusun Buyutan, Yogyakarta
         </p>
         <p className=" flex justify-center">
            <FaPhoneAlt className="text-[#8F0007] mr-2"/>0813-2524-4824

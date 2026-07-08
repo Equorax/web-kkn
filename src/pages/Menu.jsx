@@ -12,7 +12,7 @@ import ondeOnde from '../images/Onde-onde.png'
 import saragon from '../images/Saragon.jpeg'
 import sengkulun from '../images/Sengkulun.jpeg'
 import wingkoBabat from '../images/Wingko Babat.jpeg'
-import daweet from '../images/daweet.jpeg'
+import dawet from '../images/dawet.jpeg'
 import risoles from '../images/risoles.jpeg'
 
 const products = [
@@ -28,7 +28,7 @@ const products = [
   { name: 'Saragon', description: 'Saragon tradisional yang manis dan gurih, camilan khas.', image: saragon },
   { name: 'Sengkulun', description: 'Sengkulun kenyal manis, jajanan pasar yang selalu dirindu.', image: sengkulun },
   { name: 'Wingko Babat', description: 'Wingko babat legit dan manis, khas dari Babat Lamongan.', image: wingkoBabat },
-  { name: 'Dawet', description: 'Dawet manis segar, cocok sebagai pencuci mulut.', image: daweet },
+  { name: 'Dawet', description: 'Dawet manis segar, cocok sebagai pencuci mulut.', image: dawet },
   { name: 'Risoles', description: 'Risoles isi sayuran dan daging, gurih dan lezat.', image: risoles },
 ]
 

@@ -20,10 +20,10 @@ export default function Home() {
       <section className="relative bg-secondary">
         <div className="max-w-6xl mx-auto px-4 py-20 md:py-32 text-center">
           <h1 className="text-4xl md:text-6xl font-bold leading-tight" style={{ color: '#8F0007' }}>
-            Snack KKN
+            Jajanan Pasar Bu Sarmi
           </h1>
           <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto" style={{ color: '#D0311E' }}>
-            Camilan homemade fresh, halal, dan penuh cinta. Temukan camilan favoritmu!
+            Camilan homemade,fresh, dan penuh cinta. Temukan camilan favoritmu!
           </p>
           <Link
             to="/menu"
@@ -36,7 +36,7 @@ export default function Home() {
       <div className="flex justify-center content-center mt-10">
         <img
         src={banner}
-        alt="Banner Snack KKN"
+        alt="Banner Jajanan Pasar Bu Sarmi"
         className=" lg:w-6xl md:w-lg sm: w-sm rounded-xl border-[#8F0007] border-5"
         
       />
@@ -57,7 +57,7 @@ export default function Home() {
       <section className="bg-secondary py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold" style={{ color: '#8F0007' }}>
-            Kenapa Pilih Snack KKN?
+            Kenapa Pilih Snack Bu Sarmi?
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-10">
             <div className="bg-white p-6 rounded-2xl shadow-sm">
