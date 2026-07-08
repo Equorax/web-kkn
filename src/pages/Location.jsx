@@ -28,7 +28,7 @@ export default function Location() {
           <IoLocation className="text-[#8F0007] mr-2 "/> Dusun KKN, Yogyakarta
         </p>
         <p className=" flex justify-center">
-           <FaPhoneAlt className="text-[#8F0007] mr-2"/>0812-3456-7890
+           <FaPhoneAlt className="text-[#8F0007] mr-2"/>0813-2524-4824
         </p>
       </div>
     </div>
