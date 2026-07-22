@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
-import Menu from './pages/Menu'
+import Produk from './pages/Produk'
 import Location from './pages/Location'
 
 export default function App() {
@@ -12,7 +12,7 @@ export default function App() {
       <main className="flex-1">
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/menu' element={<Menu />} />
+          <Route path='/produk' element={<Produk />} />
           <Route path='/location' element={<Location />} />
           <Route path='*' element={<Home />} />
         </Routes>

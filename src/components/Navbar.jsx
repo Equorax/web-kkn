@@ -7,7 +7,7 @@ export default function Navbar() {
 
   const links = [
     { label: 'Beranda', to: '/' },
-    { label: 'Menu', to: '/menu' },
+    { label: 'Produk', to: '/produk' },
     { label: 'Lokasi', to: '/location' },
   ]
 
