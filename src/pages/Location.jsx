@@ -27,7 +27,7 @@ export default function Location() {
           <IoLocation className="text-[#8F0007] mr-2 "/> Gg. Sunan Gresik Jl. Buyutan, RT.03/RW.03, Watumoyo, Ngalang, Kec. Gedang Sari, Kabupaten Gunungkidul, Daerah Istimewa Yogyakarta 55863
         </p>
         <p className=" flex justify-center">
-           <FaPhoneAlt className="text-[#8F0007] mr-2"/>0813-2524-4824
+           <FaPhoneAlt className="text-[#8F0007] mr-2"/><a href="https://wa.me/6281325244824" target="_blank" rel="noopener noreferrer" className="hover:underline">0813-2524-4824</a>
         </p>
       </div>
     </div>

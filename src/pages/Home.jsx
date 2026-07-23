@@ -26,7 +26,7 @@ export default function Home() {
             Camilan homemade,fresh, dan penuh cinta. Temukan camilan favoritmu!
           </p>
           <Link
-            to="/menu"
+            to="/produk"
             className="mt-8 inline-block bg-primary text-white px-8 py-3 rounded-full text-lg font-semibold hover:opacity-90 transition shadow-lg"
           >
             Lihat Menu
